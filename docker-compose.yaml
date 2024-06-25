@@ -1,0 +1,7 @@
+services:
+  whatsapp:
+    build:
+      context: ./whatsapp
+    container_name: whatsapp
+    volumes:
+      - ./whatsapp:/home/app
